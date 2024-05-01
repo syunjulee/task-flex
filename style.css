@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrap {
   width: 1296px;
   margin: 0 auto;
@@ -8,4 +13,25 @@
 
 .card {
   width: 636px;
+  margin-top: 80px;
+}
+
+.pic img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.content .text {
+  margin-bottom: 24px;
+}
+
+.content .text h3 {
+  font-size: 28px;
+  color: #3B3B3B;
+  margin-bottom: 8px;
+}
+
+.content .text p {
+  font-size: 16px;
+  color: #919191;
 }
