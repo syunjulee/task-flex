@@ -5,15 +5,15 @@
 
 .wrap {
   width: 1296px;
-  margin: 0 auto;
+  margin: 80px auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 80px;
 }
 
 .card {
   width: 636px;
-  margin-top: 80px;
 }
 
 .pic img {
@@ -22,16 +22,25 @@
 }
 
 .content .text {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .content .text h3 {
   font-size: 28px;
   color: #3B3B3B;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .content .text p {
   font-size: 16px;
   color: #919191;
+}
+
+.content .tags a {
+  background-color: #F1F1F1;
+  text-decoration: none;
+  color: #3B3B3B;
+  padding: 8px 12px;
+  margin-right: 8px;
+  border-radius: 50px;
 }
