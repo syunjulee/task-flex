@@ -1,0 +1,11 @@
+.wrap {
+  width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  width: 636px;
+}
